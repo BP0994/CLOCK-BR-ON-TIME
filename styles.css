@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@700&family=Poppins:wght@600;700&display=swap');
+
+* {
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+
+}
+
+body {
+          
+          font-family: 'poppins', sans-serif;
+          animation: gradient-color 20s ease-out 1ms alternate-reverse infinite;
+          transition: ease-in;
+
+}
+
+@keyframes gradient-color {
+          0% {
+                    background-color: rgb(105, 0, 0);
+          }
+
+          10% {
+                    background-color: rgb(97, 60, 0);
+
+          }
+
+          20% {
+                    background-color: rgb(92, 84, 0);
+
+          }
+          30% {
+                    background-color: rgb(0, 101, 27);
+
+          }
+          40% {
+                    background-color: rgb(0, 92, 54);
+
+          }
+          50% {
+                    background-color: rgb(0, 57, 79);
+
+          }
+          60% {
+                    background-color: rgb(0, 13, 63);
+
+          }
+          70% {
+                    background-color: rgb(29, 0, 71);
+
+          }
+          80% {
+                    background-color: rgb(61, 0, 66);
+
+          }
+          90% {
+                    background-color: rgb(80, 0, 41);
+
+          }
+          100% {
+                    background-color: rgb(70, 0, 0);
+
+          }
+}
+
+.clock {
+          display: flex;
+          width: 100%;
+          height: 100vh;
+          justify-content: center;
+          align-items: center;
+          font-size: 233px;
+          gap: 33px;
+          color: white;
+          font-weight: 900;
+}
